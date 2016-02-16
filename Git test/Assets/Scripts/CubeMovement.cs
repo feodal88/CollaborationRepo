@@ -14,6 +14,7 @@ public class CubeMovement : MonoBehaviour
         startPoint = transform.position;
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -37,3 +38,4 @@ public class CubeMovement : MonoBehaviour
         left
     }
 }
+
