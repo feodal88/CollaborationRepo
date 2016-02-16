@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CubeMovement : MonoBehaviour {
+public class SphereMovement : MonoBehaviour {
 
 	public float speed = 3.0f;
 
@@ -12,6 +12,6 @@ public class CubeMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		this.transform.position += Vector3.up * Time.deltaTime * this.speed;
+		this.transform.position += Vector3.left * Time.deltaTime * this.speed;
 	}
 }
